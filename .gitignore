@@ -1,0 +1,6 @@
+.DS_Store
+.vscode
+git_project/db.sqlite3
+
+**/migrations/**
+!**/migrations/__init__.py
