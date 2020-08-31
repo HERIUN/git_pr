@@ -20,4 +20,5 @@ from gitapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home')
+    path('kdg', views.kdg, name='kdg')
 ]
